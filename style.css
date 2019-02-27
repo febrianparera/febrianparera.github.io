@@ -28,7 +28,7 @@ body {
 header{
 	height: 460px;
 	width: 100%;
-	background: url(../img/old-books.jpg) no-repeat;
+	background: url(./img/old-books.jpg) no-repeat;
 	background-position: center;
 	background-size: cover;
 	overflow: hidden;
