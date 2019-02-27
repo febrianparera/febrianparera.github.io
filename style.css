@@ -62,12 +62,17 @@ section img{
 	margin: -50px 135px 0 135px;
 }
 .footer{
-	height: 45px;
+	height: 75px;
 	background-color: black;
-	border-radius: 100% 100% 0% 0; 
 }
 .footer h5{
 	color: white;
+	margin-top: 15px;
 	text-align: center;
 	font: 24px/10px arial bold;
+}
+.footer h6{
+	font: 18px tamahon, arial bold;
+	color: white;
+	text-align: center;
 }
