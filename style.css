@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.navi{
+	height: 45px;
+	background-color: black;
+	border-bottom: 1px solid grey;
+	opacity: 0.7;
+	overflow: hidden;
+}
+.navi ul li{
+	float: right;
+	margin-right: 65px;
+	padding-bottom: 15px;
+	list-style: none;
+	
+}
+.navi ul li a{
+	color: white;
+	font: 16px aril,serif bold;
+	text-decoration: none;
+}
+.navi ul li a:hover {
+	font: 18px san-serif bold;
+	color: grey;
+}
+header{
+	height: 460px;
+	width: 100%;
+	background: url(../img/old-books.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+
+}
+.head h1{
+	font: 48px arial bold;
+	color: white;
+	padding: 15px 0 0 35px;
+}
+.head span{
+	font: 50px san-serif bold;
+	color: red;
+}
+.head p{
+	font: 15px arial,san-serif bold;
+	color: white;
+	text-align: center;
+	margin: 150px 12px 0 12px;
+	padding: 0 250px;
+}
+section img{
+	height: 125px;
+	border-radius: 65px;
+	position: relative;
+	top: -62px;
+	left: 500px;
+	border: 1px solid white;
+}
+.sec{
+	margin: -50px 135px 0 135px;
+}
+.footer{
+	height: 45px;
+	background-color: black;
+	border-radius: 100% 100% 0% 0; 
+}
+.footer h5{
+	color: white;
+	text-align: center;
+	font: 24px/10px arial bold;
+}
