@@ -59,7 +59,8 @@ section img{
 	border: 1px solid white;
 }
 .sec{
-	margin: -50px 20% 0 20%;
+	margin: -60px 20% 0 20%;
+	line-height: 25px;
 }
 .footer{
 	height: 75px;
