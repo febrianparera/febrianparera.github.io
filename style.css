@@ -67,12 +67,13 @@ section img{
 }
 .footer h5{
 	color: white;
-	margin-top: 15px;
+	padding-top: 10px;
 	text-align: center;
-	font: 24px/10px arial bold;
+	font: 18px arial bold;
 }
 .footer h6{
-	font: 18px tamahon, arial bold;
+	font: 12px tamahon, arial bold;
 	color: white;
+	margin-top: -25px;
 	text-align: center;
 }
