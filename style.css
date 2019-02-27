@@ -41,6 +41,7 @@ header{
 }
 .head span{
 	font: 50px san-serif bold;
+	text-shadow: 10px 6px 5px black;
 	color: red;
 }
 .head p{
@@ -56,6 +57,7 @@ section img{
 	position: relative;
 	top: -62px;
 	left: 42%;
+	box-shadow: 5px 10px 15px grey;
 	border: 1px solid white;
 }
 .sec{
