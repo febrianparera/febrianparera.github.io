@@ -24,7 +24,6 @@ nav{
 }
 .navi ul li a:hover {
 	font: 18px san-serif bold;
-	background-color: grey;
 	color: grey;
 }
 .images1{
@@ -72,18 +71,17 @@ nav{
 	color: red;
 }
 .head p{
-	font: 15px arial,san-serif bold;
+	font: 20px arial,san-serif bold;
 	color: white;
+	margin: 200px 20% 0 20%;
 	text-align: center;
-	margin: 150px 12px 0 12px;
-	padding: 0 250px;
 }
 article img{
 	height: 125px;
 	border-radius: 65%;
 	position: relative;
 	top: -62px;
-	left: 42%;
+	left: 40%;
 	box-shadow: 5px 10px 15px grey;
 	border: 1px solid white;
 }
@@ -96,3 +94,18 @@ article img{
 	color: white;
 	background-color: black;
 }
+@media only screen and (max-width: 460px){
+	.container{
+		font-size: 18px;
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 760px){
+	.container{
+		width: 100%;
+		font-size: 25px;
+	}
+}
+
+
+
