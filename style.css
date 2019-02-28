@@ -2,17 +2,18 @@ body {
 	margin: 0;
 	padding: 0;
 }
-.navi{
+nav{
 	height: 45px;
+	width: 100%;
 	background-color: black;
-	border-bottom: 1px solid grey;
-	opacity: 0.7;
 	overflow: hidden;
+	position: fixed;
+	z-index: 1;
 }
 .navi ul li{
+	display: inline;
 	float: right;
 	margin-right: 65px;
-	padding-bottom: 15px;
 	list-style: none;
 	
 }
@@ -23,16 +24,42 @@ body {
 }
 .navi ul li a:hover {
 	font: 18px san-serif bold;
+	background-color: grey;
 	color: grey;
 }
-header{
-	height: 460px;
+.images1{
+	min-height: 550px;
 	width: 100%;
 	background: url(./img/old-books.jpg) no-repeat;
+}
+.images2{
+	min-height: 550px;
+	background: url(./img/compass.jpg) no-repeat;
+}
+.images3{
+	min-height: 550px;
+	background: url(./img/the-road.jpg) no-repeat;
+}
+.images4{
+	min-height: 550px;
+	background: url(./img/old-books.jpg) no-repeat;
+}
+ .images1, .images2, .images3, .images4{	
+ 	position: relative;
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 	overflow: hidden;
-
+}
+.sesi{
+	height: 100px;
+	background-color: black;
+	overflow: hidden;
+}
+.sec1{
+	height: 130px;
+	background-color: white;
+	overflow: hidden;
 }
 .head h1{
 	font: 48px arial bold;
@@ -51,9 +78,9 @@ header{
 	margin: 150px 12px 0 12px;
 	padding: 0 250px;
 }
-section img{
+article img{
 	height: 125px;
-	border-radius: 65px;
+	border-radius: 65%;
 	position: relative;
 	top: -62px;
 	left: 42%;
@@ -61,22 +88,11 @@ section img{
 	border: 1px solid white;
 }
 .sec{
-	margin: -60px 20% 0 20%;
-	line-height: 25px;
+	background-color: white;
+	overflow: hidden;
 }
 .footer{
-	height: 75px;
+	height: 125px;
+	color: white;
 	background-color: black;
-}
-.footer h5{
-	color: white;
-	padding-top: 10px;
-	text-align: center;
-	font: 18px arial bold;
-}
-.footer h6{
-	font: 12px tamahon, arial bold;
-	color: white;
-	margin-top: -25px;
-	text-align: center;
 }
