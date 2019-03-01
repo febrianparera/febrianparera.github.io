@@ -3,10 +3,30 @@ body {
 	padding: 0;
 }
 nav{
-	height: 75px;
-	width: 100%;
-	background-color: black;
-	overflow: hidden;
+	position: absolute;
+	top:0;
+	right: 0;
+	width: 96px;
+	height: 85px;
+	background-color: white;
+	border-bottom-left-radius: 100% 100%;
+	transition: 1s;
+	z-index: 1;
+}
+nav:hover{
+	height: 450px;
+	width: 350px;
+	transition: 1s;
+	z-index: 1;
+}
+.navi{
+	display: none;
+}
+.cur img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
 }
 .navi ul li{
 	display: inline;
@@ -15,7 +35,6 @@ nav{
 	list-style: none;
 }
 .navi ul li a{
-	color: white;
 	font: 16px aril,serif bold;
 	text-decoration: none;
 }
