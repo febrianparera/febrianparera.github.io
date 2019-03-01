@@ -3,19 +3,16 @@ body {
 	padding: 0;
 }
 nav{
-	height: 45px;
+	height: 75px;
 	width: 100%;
 	background-color: black;
 	overflow: hidden;
-	position: fixed;
-	z-index: 1;
 }
 .navi ul li{
 	display: inline;
 	float: right;
 	margin-right: 65px;
 	list-style: none;
-	
 }
 .navi ul li a{
 	color: white;
@@ -31,13 +28,9 @@ nav{
 	width: 100%;
 	background: url(./img/old-books.jpg) no-repeat;
 }
-.images2{
+.images2, .images3{
 	min-height: 550px;
 	background: url(./img/compass.jpg) no-repeat;
-}
-.images3{
-	min-height: 550px;
-	background: url(./img/boy.jpg) no-repeat;
 }
 .images4{
 	min-height: 550px;
@@ -79,11 +72,12 @@ nav{
 article img{
 	height: 125px;
 	border-radius: 65%;
-	position: relative;
-	top: -62px;
+	position: absolute;
+	top: 465px;
 	left: 40%;
 	box-shadow: 5px 10px 15px grey;
 	border: 1px solid white;
+	z-index: 1;
 }
 .sec{
 	background-color: white;
@@ -94,18 +88,5 @@ article img{
 	color: white;
 	background-color: black;
 }
-@media only screen and (max-width: 460px){
-	.container{
-		font-size: 18px;
-		width: 100%;
-	}
-}
-@media only screen and (min-width: 760px){
-	.container{
-		width: 100%;
-		font-size: 25px;
-	}
-}
-
 
 
