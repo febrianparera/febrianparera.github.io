@@ -13,64 +13,17 @@ nav{
 	transition: 1s;
 	z-index: 1;
 }
-nav:hover{
-	height: 450px;
-	width: 350px;
-	transition: 1s;
-	z-index: 1;
-}
 .navi{
 	display: none;
 }
-.cur img {
-	position: absolute;
-	top: 0;
-	right: 0;
-	cursor: pointer;
-}
 .navi ul li{
 	display: inline;
-	float: right;
 	margin-right: 65px;
 	list-style: none;
 }
 .navi ul li a{
 	font: 16px aril,serif bold;
 	text-decoration: none;
-}
-.navi ul li a:hover {
-	font: 18px san-serif bold;
-	color: grey;
-}
-.images1{
-	min-height: 550px;
-	width: 100%;
-	background: url(./img/old-books.jpg) no-repeat;
-}
-.images2, .images3{
-	min-height: 550px;
-	background: url(./img/compass.jpg) no-repeat;
-}
-.images4{
-	min-height: 550px;
-	background: url(./img/old-books.jpg) no-repeat;
-}
- .images1, .images2, .images3, .images4{	
- 	position: relative;
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	overflow: hidden;
-}
-.sesi{
-	height: 100px;
-	background-color: black;
-	overflow: hidden;
-}
-.sec1{
-	height: 130px;
-	background-color: white;
-	overflow: hidden;
 }
 .head h1{
 	font: 48px arial bold;
@@ -87,20 +40,6 @@ nav:hover{
 	color: white;
 	margin: 200px 20% 0 20%;
 	text-align: center;
-}
-article img{
-	height: 125px;
-	border-radius: 65%;
-	position: absolute;
-	top: 465px;
-	left: 40%;
-	box-shadow: 5px 10px 15px grey;
-	border: 1px solid white;
-	z-index: 1;
-}
-.sec{
-	background-color: white;
-	overflow: hidden;
 }
 .footer{
 	height: 125px;
