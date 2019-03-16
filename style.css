@@ -1,46 +1,47 @@
+/* body the website */
 body {
 	margin: 0;
 	padding: 0;
 }
+/* here is navigasion-bar */
 nav{
-	position: absolute;
-	top:0;
-	right: 0;
-	width: 96px;
 	height: 85px;
-	background-color: white;
-	border-bottom-left-radius: 100% 100%;
-	transition: 1s;
-	z-index: 1;
+	width : 100%;
+	background-color: grey;
+	overflow: hidden;
 }
-.navi{
-	display: none;
-}
-.navi ul li{
-	display: inline;
-	margin-right: 65px;
+.nav ul li{
+	display: inline-block;
 	list-style: none;
 }
-.navi ul li a{
-	font: 16px aril,serif bold;
+.nav ul li a{
+	font: 16px arial,serif bold;
 	text-decoration: none;
 }
+/* here is header  */
 .head h1{
 	font: 48px arial bold;
 	color: white;
 	padding: 15px 0 0 35px;
 }
+.head {
+	height: 650px;
+	background: url(./img/the-road.jpg) no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
 .head span{
-	font: 50px san-serif bold;
+	font: 50px serif bold;
 	text-shadow: 10px 6px 5px black;
 	color: red;
 }
 .head p{
-	font: 20px arial,san-serif bold;
+	font: 20px arial, serif bold;
 	color: white;
 	margin: 200px 20% 0 20%;
 	text-align: center;
 }
+/* and here is footer for website */
 .footer{
 	height: 125px;
 	color: white;
